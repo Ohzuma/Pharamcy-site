@@ -1,0 +1,131 @@
+.hero{
+    background-image: url(../../assets/lady.jpg); 
+        padding-top: 200px !important;
+        padding-bottom: 250px !important;
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+
+}
+.hero_m{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_content{
+  padding-left: 5rem;
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    /* gap: -2.5rem; */
+    line-height: 3rem;
+}
+.span span{
+    font-size: 3.5rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(15, 15, 15);
+}
+.hero_text p{
+    font-size: 14px;
+   letter-spacing: 1px;
+    color: #060000;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    font-weight: 300 !important;
+}
+.plan{
+    display: flex;
+    padding: 3rem 3rem;
+    margin-top: -9rem;
+    align-items: center;
+    justify-content: center;
+    /* gap: 1rem; */
+}
+.plan_box{
+    background-color: red;
+    border-radius: 1rem;
+    width: 400px;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding: 3rem;
+}
+.plan_box h3{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.746);
+}
+.plan_box:nth-child(1) span{
+    font-size: 2rem;
+    color: #42A5C6;
+}
+
+.plan_box:nth-child(2) span{
+    font-size: 3rem;
+    color: #42A5C6;
+}
+.plan_box:nth-child(3) span{
+    font-size: 3rem;
+    color: #42A5C6;
+}
+.plan_box p{
+    line-height: 1.5rem;
+    text-align: left;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.746);
+}
+.plan_box:nth-child(3){
+  background-color: #B9F7F9;
+}
+.plan_box:nth-child(2){
+    background-color: #D4FDFE;
+    transform: scale(1.1);
+    height: auto;
+  }
+  .plan_box:nth-child(1){
+    background-color: #B9F7F9;
+  }
+  .plan_box button{
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4rem;
+    font-weight: bolder;
+    transition: 0.5s all ease-in;
+}
+.plan_box button:hover{
+    background-color: transparent;
+    border: 2px solid #42A5C6;
+    /* transition: 0.5s; */
+}
+@media (max-width:936px){
+    .plan{
+    flex-direction: column;
+    padding: 0rem 0rem;
+    margin-top: -9rem;
+   gap: 2rem;
+    }
+    .plan_box{
+        width: 100%;
+        height: auto;
+        padding: 3rem 2rem;
+    }
+    .plan_box:nth-child(2){
+        background-color: #D4FDFE;
+        transform: scale(1);
+      }
+      .plan_box:nth-child(1) span{
+        font-size: 1rem;
+        color: #42A5C6;
+    }
+}

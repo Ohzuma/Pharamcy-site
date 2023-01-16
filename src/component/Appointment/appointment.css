@@ -1,0 +1,90 @@
+.appointment{
+    margin: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+}
+.rh{
+    display: flex;
+    gap: 2rem;
+}
+.app-card{
+
+    background-color: rgb(239, 239, 239);
+    background-image: url('../../assets/testmonials.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 320px;
+     height: 100%;
+
+}
+.card{  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 100%;
+    color: #fff;
+  
+    padding-left: 20px;
+padding-right: 30px;
+padding-top: 240px;
+padding-bottom: 70px;
+}
+.PersonInfo h1{
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.PersonInfo p{
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.PersonDesc{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.PersonDesc p{
+    font-weight: 500;
+    font-size: small;
+    line-height: 1.5rem;
+}
+.PersonDesc h1{
+    font-weight: 300;
+}
+.lh-input input,select{
+    border: none;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    width: 100%;
+    padding:1rem;
+    font-size:small;
+    letter-spacing: 1px;
+    color: rgb(150, 150, 150);
+}
+.lh-input input::placeholder{
+    font-style: italic;
+}
+.lh form{
+    display: flex;
+    flex-direction: column;
+    gap:2rem
+}
+.lh button{
+    height: 3rem;
+    width: 7rem;
+    margin-top: 2rem;
+    border: 2px solid #5bf2bb;
+    outline: none;
+    background-color: #5bf2bb;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 2rem;
+    transition: 0.5s;
+}
+.lh button:hover{
+    border: 2px solid #5bf2bb;
+    background-color: transparent;
+    color: #000;
+}

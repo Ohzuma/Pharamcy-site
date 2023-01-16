@@ -1,0 +1,72 @@
+.Faq-Page {
+    padding: 3rem;
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-top: 4rem;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    
+}
+.heading span:nth-of-type(1){
+    font-weight: 300;
+    font-size: 3rem;
+    margin-bottom: 0rem;
+}
+.heading span:nth-of-type(2){
+    font-size: 2rem;
+    padding-top: 0rem;
+font-weight: bold;
+color: rgb(35, 35, 35);
+}
+.heading button{
+    width: 9rem;
+    height: 3.3rem;
+    outline: none;
+    border: none;
+    background-color: #4cedb4;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 3rem;
+margin-top: 3rem;
+}
+.more_info{
+    background-color: #F4F4F4;
+    padding: 5rem 0rem;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5rem;
+}
+.info{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.info div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+.info div:nth-of-type(1) svg{
+   font-size: 2rem;
+   color: #79E8C4;
+}
+.info div span:nth-of-type(2) {
+    font-size: small;
+    color: rgb(75, 75, 75);
+}
+.info div span:nth-of-type(1) {
+   padding-bottom: 1rem;
+   font-size: 1rem;
+   font-weight: bold;
+   color: rgb(50, 50, 50);
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

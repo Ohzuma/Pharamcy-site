@@ -1,0 +1,70 @@
+.about-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    /* grid-gap: 2rem; */
+    margin-right:2rem ;
+    margin-left: 2rem;
+    justify-items: center;
+    margin-top: 7rem;
+    place-items: center;
+    place-content: center;
+}
+.about_img{
+    width: 100%;
+}
+.about_img img{
+    width: 100%;
+}
+h1 span:nth-of-type(2){
+    font-weight: lighter;
+}
+.about p{
+    font-size: 12px;
+    color: rgb(0, 120, 171);
+    padding-bottom: 2rem;
+}
+small{
+    color: rgb(90, 105, 116);
+}
+.about-faq{
+    width: 30rem;
+}
+.accordion{
+  margin-top: 3rem;
+}
+.item{
+    margin-bottom: 5px;
+}
+.title{
+    color: rgb(0, 0, 0);
+   cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  font-size: 12px;
+  background-color: #efefef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight:lighter;
+}
+.title.active{
+    background-color:#3CE2AD ;
+}
+.title span{
+    font-size: 2.2rem;
+}
+.content{
+    color: rgb(47, 47, 47);
+    max-height: 0;
+    overflow: hidden;
+    transition: all ease-out 0.5s cubic-bezier(0,1,0,1);
+   
+}
+.content.show{
+    height: auto;
+    max-height: 999px;
+    transition: all ease-in 0.5s cubic-bezier(0,1,0,1);
+    padding: 2rem;
+    font-size: small;
+    line-height: 1.5rem;
+}
