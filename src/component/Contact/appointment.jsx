@@ -1,11 +1,10 @@
 import React from 'react'
-import  './appointment.css'
 import PersonOne from '../../assets/beard.png'
 import PersonTwo from '../../assets/matheus.png'
 function appointment() {
   return (
     <div className='appointment'>
-      <div className="rh">
+      <div className="rh" data-aos="fade-left">
 <div className="app-card">
 <div className="card">
 <div className="img">
@@ -43,7 +42,7 @@ function appointment() {
 </div>
 </div>
       </div>
-      <div className="lh">
+      <div className="lh" data-aos="fade-right">
       <div className="heading-lg">
         <h1>Make An Appointment </h1>
         <p>AND WE WILL CONTACT YOU </p>

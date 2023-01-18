@@ -1,6 +1,9 @@
 import React from 'react'
 import lady_img from '../../assets/Layer-1186-copy.jpg'
 const Dotocr = () => {
+
+
+
   return (
     <>
     <div className='doctorSide'>
@@ -30,22 +33,22 @@ const Dotocr = () => {
     </div>
     <div className="counter">
       <div className="items">
-        <span>53</span>
+        <span data-max="53">53</span>
         <span>Certified</span>
         <span>Doctors</span>
       </div>
       <div className="items">
-        <span>48</span>
+        <span data-max="48">48</span>
         <span>Medical</span>
         <span>Service</span>
       </div>
       <div className="items">
-        <span>12</span>
+        <span data-max="12">12</span>
         <span>Different</span>
         <span>Affiliates</span>
       </div>
       <div className="items">
-        <span>96</span>
+        <span data-max="96">96</span>
         <span>Offered</span>
         <span>Programs</span>
       </div>

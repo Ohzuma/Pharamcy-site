@@ -2,7 +2,7 @@ import About_img from "../../assets/Layer-1200.png";
 import { Data } from "./AboutData";
 import { useState } from "react";
 const About = () => {
-  const [selected, setSelected] = useState(null);
+  const [selected, setSelected] = useState(0);
   const toggle = (i) => {
     if (selected === i) {
       return setSelected(null);
@@ -15,7 +15,7 @@ const About = () => {
         <div className="about_img">
           <img src={About_img} alt="about-img" />
         </div>
-        <div className="about-faq">
+        <div className="about-faq" data-aos="fade-right">
           <h1>
             <span>About</span> <span>Jevelin Clinic</span>
           </h1>

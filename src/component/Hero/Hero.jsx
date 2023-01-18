@@ -6,7 +6,7 @@ import Data from './HeroData'
 const Hero = () => {
   return (
   <>
-<div className="hero">
+<div className="hero" id='home'>
 {/* <Navbar/> */}
 <div className='hero_m'>
 <div className="hero_content">

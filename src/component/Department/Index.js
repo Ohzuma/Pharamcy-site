@@ -1,11 +1,15 @@
 import React from 'react'
-import Department from './Department'
-import './Department.css'
+import './department.css'
+import Department from './Department';
+import Docotor from './Dotocr'
+import Offer from './Offer'
 const Index = () => {
   return (
-   <>
-   <Department />
-   </>
+    <div id="department">
+<Department/>
+<Docotor/>
+<Offer/>
+    </div>
   )
 }
 

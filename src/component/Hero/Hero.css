@@ -38,22 +38,23 @@
 }
 .plan{
     display: flex;
-    padding: 3rem 3rem;
+    padding: 3rem 5rem;
     margin-top: -9rem;
     align-items: center;
     justify-content: center;
-    /* gap: 1rem; */
+    gap: -5rem;
 }
 .plan_box{
     background-color: red;
     border-radius: 1rem;
     width: 400px;
-    height: 23rem;
+    /* height: 30rem; */
+    /* height: 23rem; */
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     /* align-items: center; */
-    padding: 3rem;
+    padding: 7rem 3rem;
 }
 .plan_box h3{
     font-size: 1rem;
@@ -84,7 +85,7 @@
 .plan_box:nth-child(2){
     background-color: #D4FDFE;
     transform: scale(1.1);
-    height: auto;
+    /* height: auto; */
   }
   .plan_box:nth-child(1){
     background-color: #B9F7F9;
@@ -116,13 +117,14 @@
    gap: 2rem;
     }
     .plan_box{
-        width: 100%;
+        width: 90%;
         height: auto;
-        padding: 3rem 2rem;
+        padding: 3rem 5rem;
+        margin-bottom: -40px;
     }
     .plan_box:nth-child(2){
         background-color: #D4FDFE;
-        transform: scale(1);
+        transform: none;
       }
       .plan_box:nth-child(1) span{
         font-size: 1rem;

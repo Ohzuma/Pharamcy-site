@@ -1,6 +1,5 @@
 import React from "react";
 import { Data } from "./OfferData";
-import './Offer.css'
 const Offer = () => {
   return (
     <>
@@ -10,8 +9,8 @@ const Offer = () => {
           <h1>Our Special Offers </h1>
           <p>START TO BE HEALTHY TODAY </p>
         </div>
-        <div className="plans row">
-          {Data.map((data) => {
+        <div className="plans">
+          {Data.map((data,i) => {
             const {
               headingText,
               headingNum,
@@ -25,7 +24,7 @@ const Offer = () => {
               btn,
             } = data;
             return (
-              <div className="plans_offer col-sm-4">
+              <div className="plans_offer" key={i}>
                 <h3>{headingText}</h3>
                 <h1>
                   <span>$ </span> 

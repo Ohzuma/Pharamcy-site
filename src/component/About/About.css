@@ -1,13 +1,14 @@
 .about-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    /* grid-gap: 2rem; */
-    margin-right:2rem ;
-    margin-left: 2rem;
+    grid-gap: 2rem;
+    /* margin-right:2rem ;
+    margin-left: 2rem; */
     justify-items: center;
     margin-top: 7rem;
     place-items: center;
     place-content: center;
+    padding: 3rem;
 }
 .about_img{
     width: 100%;
@@ -31,6 +32,7 @@ small{
 }
 .accordion{
   margin-top: 3rem;
+  width: 100%;
 }
 .item{
     margin-bottom: 5px;
@@ -44,6 +46,7 @@ small{
   font-size: 12px;
   background-color: #efefef;
   padding: 1rem;
+  height: 4rem;
   border-radius: 0.5rem;
   font-weight:lighter;
 }
@@ -68,3 +71,31 @@ small{
     font-size: small;
     line-height: 1.5rem;
 }
+
+@media(max-width:966px){
+    .about-grid{
+        display: flex;
+        flex-direction: column;
+    }
+    .about_img{
+        width: 80%;
+    }
+    .about_img img{
+        width: 100%;
+    }
+    .about-faq{
+        width: 100%;
+    }
+}
+@media(max-width:788px){
+    .doctorSide{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+}
+    @media(max-width:500px){
+        .counter{
+            grid-template-columns: 1fr 1fr;
+        }
+    }

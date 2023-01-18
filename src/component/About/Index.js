@@ -3,9 +3,9 @@ import About from './About'
 import './About.css'
 const Index = () => {
   return (
-    <>
+    <div id="about">
 <About />
-    </>
+    </div>
   )
 }
 

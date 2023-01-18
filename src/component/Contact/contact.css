@@ -1,12 +1,62 @@
+.more_info{
+    background-color: #F4F4F4;
+    padding: 5rem 2rem;
+    /* width: 100%; */
+    display: grid;
+    justify-items: center;
+    place-content: center;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    position: relative;
+}
+.info{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;  
+
+}
+.info div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+}
+.info div:nth-of-type(1) svg{
+   font-size: 2rem;
+   color: #79E8C4;
+}
+.info div span:nth-of-type(2) {
+    font-size: small;
+    color: rgb(75, 75, 75);
+}
+.info div span:nth-of-type(1) {
+   padding-bottom: 1rem;
+   font-size: 1rem;
+   font-weight: bold;
+   color: rgb(50, 50, 50);
+}
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .appointment{
     margin: 3rem;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 5rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+    place-items: center;
+    place-content: center;
 }
 .rh{
-    display: flex;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
+    place-items: center;
+    place-content: center;
+    margin:  auto auto;
 }
 .app-card{
 
@@ -15,8 +65,8 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    width: 320px;
      height: 100%;
+    
 
 }
 .card{  
@@ -87,4 +137,13 @@ padding-bottom: 70px;
     border: 2px solid #5bf2bb;
     background-color: transparent;
     color: #000;
+}
+@media(max-width:1080px){
+    /* .appointment{
+        grid-template-columns: 1fr
+    } */
+    .lh form{
+        width: 100%;
+
+    }
 }

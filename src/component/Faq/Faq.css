@@ -3,6 +3,10 @@
     /* display: flex; */
     /* justify-content: center; */
     margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+    justify-items: center;
 }
 .heading{
     display: flex;
@@ -32,41 +36,15 @@ color: rgb(35, 35, 35);
     border-radius: 3rem;
 margin-top: 3rem;
 }
-.more_info{
-    background-color: #F4F4F4;
-    padding: 5rem 0rem;
-    /* width: 100%; */
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    gap: 5rem;
-}
-.info{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-}
-.info div:nth-of-type(2){
-    display: flex;
-    flex-direction: column;
-}
-.info div:nth-of-type(1) svg{
-   font-size: 2rem;
-   color: #79E8C4;
-}
-.info div span:nth-of-type(2) {
-    font-size: small;
-    color: rgb(75, 75, 75);
-}
-.info div span:nth-of-type(1) {
-   padding-bottom: 1rem;
-   font-size: 1rem;
-   font-weight: bold;
-   color: rgb(50, 50, 50);
-}
-.more{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@media(max-width:753px){
+    .Faq-Page{
+        grid-template-columns: 1fr;
+    }
+    .heading{
+    
+        padding-left: 0rem;
+        gap: 1rem;
+        
+    }
 }

@@ -3,9 +3,9 @@ import Faq from '../Faq/Faq'
 import './Faq.css'
 const Index = () => {
   return (
-    <>
+    <div id="faq">
     <Faq />
-    </>
+    </div>
   )
 }
 
