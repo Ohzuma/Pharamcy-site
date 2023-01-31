@@ -112,6 +112,7 @@ padding-bottom: 70px;
     font-size:small;
     letter-spacing: 1px;
     color: rgb(150, 150, 150);
+    background-color: #fff;
 }
 .lh-input input::placeholder{
     font-style: italic;
@@ -146,4 +147,35 @@ padding-bottom: 70px;
         width: 100%;
 
     }
+}
+@media(max-width:500px){
+    .more_info{
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    
+    }
+    .rh{
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+    .info{
+        align-self: flex-start;
+        gap: 1rem;
+    }
+    .heading-lg h1{
+font-size: 1.2rem;
+    }
+    .heading-lg p{
+        font-size: 1rem;
+}
+.rh{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+}
+
 }

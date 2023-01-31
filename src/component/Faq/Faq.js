@@ -14,7 +14,7 @@ const Faq = () => {
         <div className="lh" data-aos="fade-right">
           <div className="heading">
             <span>Frequently Asked</span>
-            <span>Questions</span>
+            <span> Questions</span>
             {/* <button>View All</button> */}
           </div>
         </div>

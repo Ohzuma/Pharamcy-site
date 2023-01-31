@@ -18,7 +18,12 @@
   /* gap: 4rem; */
   overflow: hidden;
   background-color: #fff;
+  /* word-wrap: break-word; */
+  /* word-break: break-all; */
 }
 ::-webkit-scrollbar{
   display: none;
+}
+button:hover{
+  cursor: pointer;
 }

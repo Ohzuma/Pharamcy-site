@@ -1,8 +1,23 @@
 import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 import lady_img from '../../assets/Layer-1186-copy.jpg'
 const Dotocr = () => {
 
 
+  let [increase,setIncrease] = useState(0)
+ 
+
+  // useEffect(()=>{
+ 
+  // },[increase])
+  // const myInterval= setInterval(()=>{
+  //   setIncrease(increase+1)
+  //  },2000/0)
+  //  if(increase === 15){
+  //    alert('eh over stop there')
+  //    clearInterval(myInterval)
+  //      }
 
   return (
     <>
@@ -33,7 +48,7 @@ const Dotocr = () => {
     </div>
     <div className="counter">
       <div className="items">
-        <span data-max="53">53</span>
+        <span data-max="53" id="one">53</span>
         <span>Certified</span>
         <span>Doctors</span>
       </div>

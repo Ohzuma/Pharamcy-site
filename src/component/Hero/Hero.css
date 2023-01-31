@@ -18,12 +18,12 @@
 .span{
     display: flex;
     flex-direction: column;
-    /* gap: -2.5rem; */
     line-height: 3rem;
 }
 .span span{
     font-size: 3.5rem;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 
+    'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
     font-weight: 700;
     color: rgb(15, 15, 15);
@@ -130,4 +130,41 @@
         font-size: 1rem;
         color: #42A5C6;
     }
+}
+@media (max-width:500px){
+    .span span{
+        font-size: 2.5rem;
+    }   
+    .hero_content{
+        padding-left: 2rem;
+      }
+      .span{
+          display: flex;
+          flex-direction: column;
+          line-height: 2.5rem;
+      }
+      .hero{
+            padding-top: 200px !important;
+            padding-bottom: 250px !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+    
+    }
+}
+@media (max-width:350px){
+   .plan{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+   .plan_box{
+    padding: 7rem 2rem;
+   }
+   .plan_box h3{
+    font-size: 0.9rem;
+  
+   }
+   
 }

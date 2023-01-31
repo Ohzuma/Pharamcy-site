@@ -6,7 +6,7 @@ export const Data =[
     },
     {
         id:2,
-        question:'Laboratory Analysis wo',
+        question:'Laboratory Analysis',
         answer:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra, urna non pellentesque sollicitudin, felis lorem porta nibh, suscipit lacinia ante augue venenatis nibh. Nullam tristique ornare lorem at '
     },
     {

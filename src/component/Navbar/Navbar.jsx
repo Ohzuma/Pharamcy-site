@@ -3,9 +3,10 @@ import './Navbar.css'
 import Logo from '../../assets/Logo-1-copy-9.png'
 import { NavLink} from 'react-router-dom'
 import { Link } from 'react-scroll'
-import { link,Social } from './NavData'
+import { link } from './NavData'
 import { useState } from 'react';
-import { FaCalendarCheck } from 'react-icons/fa';
+import {FaTwitter,FaFacebook,FaSearch} from "react-icons/fa"
+// import { FaCalendarCheck } from 'react-icons/fa';
 const Navbar = () => {
   const [showLink,setShowLink] =useState(false);
   return (
@@ -29,16 +30,14 @@ const Navbar = () => {
     </li>
   )
  })}
- {Social.map((icons)=>{
-    const {id,url,icon}=icons;
-    return(
-    <li key={id}>
-<a href={url}>{icon}</a>
 
+    
+    <li className='social'>
+<a href="https://twitter.com"><FaTwitter/></a>
+<a href="https://twitter.com"><FaFacebook/></a>
     </li>
   
-    )
-  })}
+
     <li className='close' onClick={()=> setShowLink(false)}>
       <span></span>
       <span></span>

@@ -67,3 +67,28 @@
     font-size: 1.5rem;
 }
 
+@media(max-width:500px){
+    .footer{
+        margin-top: 5rem;
+        background-color: #000;
+        color: #fff;
+        padding: 2rem 1rem;
+    }
+   .footer-row{
+    grid-template-columns: 1fr;
+
+   }
+   .footer-row .footer-item h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-row .footer-item p{
+    font-size: 15px;
+    line-height: 2rem;
+    
+}
+.box span{
+    font-size: 1rem;
+}
+   
+}

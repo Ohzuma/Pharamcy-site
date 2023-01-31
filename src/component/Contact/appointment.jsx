@@ -1,8 +1,17 @@
 import React from 'react'
 import PersonOne from '../../assets/beard.png'
 import PersonTwo from '../../assets/matheus.png'
+
+
+const Date = document.querySelector('.Date')
+// Date.addEventListener('focus',(e)=>{
+//   console.log(e.type)
+// })
+console.log(Date)
+
 function appointment() {
   return (
+
     <div className='appointment'>
       <div className="rh" data-aos="fade-left">
 <div className="app-card">
@@ -57,12 +66,13 @@ function appointment() {
         <div className="lh-input">
           <input type="number" name="number" id="phoneNumber" placeholder='Phone Number' />
         </div>
-        <div className="lh-input">
-          <input type="date" name="Date" id="Date" />
+        <div className="lh-input">          
+        <input type="text" name="Date" id="Date" className='Date'
+           placeholder='DD/MM/YYYY' />
         </div>
         <div className="lh-input">
          <select>
-          <option value="subject">Subject</option>
+          <option value="subject">Set An Appointment</option>
           <option value="Option One">Option One</option>
           <option value="Option Two">Option Two</option>
           <option value="Option Three">Option Three</option>

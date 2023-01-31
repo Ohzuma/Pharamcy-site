@@ -24,7 +24,7 @@ const ContactInfo = () => {
               </div>
               <div>
                 <span>ADDRESS</span>
-                <span> Street number 5, Town, Country</span>
+                <span>Sabo layi, opp. NNPC</span>
               </div>
             </div>
           
@@ -49,7 +49,7 @@ const ContactInfo = () => {
               </div>
               <div>
               <span>E-MAIL</span>
-                <span>brandname@company.com</span>
+                <span>ozumanology@gmail.com.com</span>
               </div>
             </div>
            
@@ -61,7 +61,7 @@ const ContactInfo = () => {
               </div>
               <div>
                 <span>TELEPHONE</span>
-                <span>(+371) 512 566 921 </span>
+                <span>(+234 8163686235)</span>
               </div>
             
         </div>
