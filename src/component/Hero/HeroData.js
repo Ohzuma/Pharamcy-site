@@ -12,13 +12,15 @@ const Data =[
         head:<CiCalendar/>,
         title:'DO YOU WANT TO MAKE AN APPOINTMENT  ',
         text:'Aliquam erat volutpat. Nullam imperdiet sapien felis, non lobortis odio mattis in. Quisque dapibus aliquet dictum. Integer dapibus ullamcorper est, ac .',
-        btn:'Book Now'
+        btn:'Book Now',
+        to:'appointment'
     },
     {
         head:<BiTime/>,
         title:'OPENING HOURS  ',
         text:'Sunday-Monday Saturday-Monday',
-        btn:'Contact Us'
+        btn:'Contact Us',
+        to:'contact'
     }
 ]
 

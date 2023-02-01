@@ -2,17 +2,10 @@ import React from 'react'
 import PersonOne from '../../assets/beard.png'
 import PersonTwo from '../../assets/matheus.png'
 
-
-const Date = document.querySelector('.Date')
-// Date.addEventListener('focus',(e)=>{
-//   console.log(e.type)
-// })
-console.log(Date)
-
 function appointment() {
   return (
 
-    <div className='appointment'>
+    <div className='appointment' id='appointment'>
       <div className="rh" data-aos="fade-left">
 <div className="app-card">
 <div className="card">

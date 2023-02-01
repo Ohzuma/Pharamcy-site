@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav>
   <div className='navbar_container'>
 <div className='logo'>
-<NavLink to='/' ><img src={Logo} alt='Logo' /></NavLink>
+<NavLink to='home' ><img src={Logo} alt='Logo' /></NavLink>
 </div>
 <div id="hamburg" onClick={()=>setShowLink(true)}>
   <span></span>
